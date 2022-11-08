@@ -1,0 +1,27 @@
+#img{
+    background: url('impact.jpg');
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    display: table;
+    text-align: center;
+}
+#img::after{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    z-index: 0;
+    opacity: .6;
+}
+.impact{
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    z-index: 1;
+}
+
